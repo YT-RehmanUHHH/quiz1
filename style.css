@@ -1,0 +1,50 @@
+html {
+	background-image: url("img/download.webp");
+	
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 50px;
+	padding: 0px;
+    text-align: center;
+
+}
+
+#quiz {
+	width: 550px;
+	margin: 50px auto;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    
+}
+
+#questions {
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#results {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}
+
